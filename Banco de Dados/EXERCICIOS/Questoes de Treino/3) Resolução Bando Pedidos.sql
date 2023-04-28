@@ -43,6 +43,3 @@ NOT IN ( SELECT pp.IDPRODUTO FROM cliente c
                                           WHERE pp.IDPRODUTO = "31" and pp.IDPRODUTO = "25"
                                           );
 									
-
--- 8) Apresentar os vendedores que apenas venderam ouro.
--- 9) Apresentar os clientes que compraram Vinho porém não compraram Açúcar.
