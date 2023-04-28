@@ -1,0 +1,3 @@
+mysqld --initialize-insecure
+
+mysqld --standalone --console

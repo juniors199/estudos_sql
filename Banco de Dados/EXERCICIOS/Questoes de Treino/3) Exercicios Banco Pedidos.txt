@@ -1,0 +1,7 @@
+1) Apresentar os clientes que compraram Chocolate.
+2) Apresentar os produtos com valor abaixo de 1.00.
+3) Apresentar todas a compras efetuadas para clientes de São Paulo.
+4) Apresentar os vendedores venderam ouro.
+5) Apresentar os clientes que compraram do vendedor 'Josias'.
+6) Apresentar os clientes que compraram mais de 20 Vinhos no mesmo pedido.
+7) Apresentar os clientes que compraram Chocolate e Queijo no mesmo pedido.

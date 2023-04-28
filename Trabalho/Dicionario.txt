@@ -1,0 +1,8 @@
+Pessoa = codID (PK) , Nome (NN), Sexo, Nascimento, profissão
+Relacionamento propio com pessoa = Inicio da amizade, parentesco
+
+Telefone = CodTelefone (PK) DDD (NN), prefixo, numero
+
+Endereço =  CodEndereço (PK), Rua, Numero, Bairro, CEP, tipoResidencia
+
+Empresa = CNPJ(PK), InscriçãoEstadual,RamoDedicação, RazãoSocial, CodEndereço (FK)

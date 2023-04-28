@@ -1,0 +1,14 @@
+
+modelo => id_modelo (PK), nome
+
+aviao => matricula (PK), nome, n_lugares, autonomia, id_modelo (FK)
+
+voos => id_voos (PK), data, hora, local_partida, local_destino, n_licenca(FK)(NN)
+
+piloto => n_licenca (PK), nome
+
+dependente => id_dependente (PK), nome, data_nascimento, piloto (FK)(NN)
+
+aviao_voos => matricula (PK)(FK), id_voos (PK)(FK)
+
+piloto_modelo => n_licenca (PK) (FK), id_modelo (PK)(FK)
